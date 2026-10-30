@@ -1,0 +1,654 @@
+{
+  "lastUpdated": "2026-10-30T00:00:00Z",
+  "source": "vaastav/Fantasy-Premier-League",
+  "seasonsIncluded": ["2023-24", "2024-25", "2025-26"],
+  "clubs": [
+    {
+      "code": 3,
+      "name": "Arsenal",
+      "shortName": "ARS",
+      "stadium": "Emirates Stadium",
+      "historicalStrength": { "attackHome": 1330, "defenceHome": 1340, "attackAway": 1280, "defenceAway": 1310 },
+      "venueStats": {
+        "winRate": 0.74,
+        "cleanSheetRate": 0.52,
+        "avgGoalsScored": 2.38,
+        "avgGoalsConceded": 0.78
+      }
+    },
+    {
+      "code": 7,
+      "name": "Aston Villa",
+      "shortName": "AVL",
+      "stadium": "Villa Park",
+      "historicalStrength": { "attackHome": 1240, "defenceHome": 1200, "attackAway": 1180, "defenceAway": 1150 },
+      "venueStats": {
+        "winRate": 0.62,
+        "cleanSheetRate": 0.38,
+        "avgGoalsScored": 2.05,
+        "avgGoalsConceded": 1.18
+      }
+    },
+    {
+      "code": 91,
+      "name": "Bournemouth",
+      "shortName": "BOU",
+      "stadium": "Vitality Stadium",
+      "historicalStrength": { "attackHome": 1120, "defenceHome": 1100, "attackAway": 1090, "defenceAway": 1080 },
+      "venueStats": {
+        "winRate": 0.42,
+        "cleanSheetRate": 0.28,
+        "avgGoalsScored": 1.48,
+        "avgGoalsConceded": 1.55
+      }
+    },
+    {
+      "code": 94,
+      "name": "Brentford",
+      "shortName": "BRE",
+      "stadium": "Gtech Community Stadium",
+      "historicalStrength": { "attackHome": 1160, "defenceHome": 1110, "attackAway": 1110, "defenceAway": 1080 },
+      "venueStats": {
+        "winRate": 0.48,
+        "cleanSheetRate": 0.32,
+        "avgGoalsScored": 1.72,
+        "avgGoalsConceded": 1.42
+      }
+    },
+    {
+      "code": 36,
+      "name": "Brighton",
+      "shortName": "BHA",
+      "stadium": "Amex Stadium",
+      "historicalStrength": { "attackHome": 1180, "defenceHome": 1140, "attackAway": 1140, "defenceAway": 1100 },
+      "venueStats": {
+        "winRate": 0.51,
+        "cleanSheetRate": 0.31,
+        "avgGoalsScored": 1.78,
+        "avgGoalsConceded": 1.35
+      }
+    },
+    {
+      "code": 8,
+      "name": "Chelsea",
+      "shortName": "CHE",
+      "stadium": "Stamford Bridge",
+      "historicalStrength": { "attackHome": 1270, "defenceHome": 1190, "attackAway": 1220, "defenceAway": 1160 },
+      "venueStats": {
+        "winRate": 0.58,
+        "cleanSheetRate": 0.36,
+        "avgGoalsScored": 2.12,
+        "avgGoalsConceded": 1.25
+      }
+    },
+    {
+      "code": 31,
+      "name": "Crystal Palace",
+      "shortName": "CRY",
+      "stadium": "Selhurst Park",
+      "historicalStrength": { "attackHome": 1130, "defenceHome": 1150, "attackAway": 1090, "defenceAway": 1100 },
+      "venueStats": {
+        "winRate": 0.44,
+        "cleanSheetRate": 0.34,
+        "avgGoalsScored": 1.45,
+        "avgGoalsConceded": 1.38
+      }
+    },
+    {
+      "code": 11,
+      "name": "Everton",
+      "shortName": "EVE",
+      "stadium": "Goodison Park",
+      "historicalStrength": { "attackHome": 1100, "defenceHome": 1170, "attackAway": 1060, "defenceAway": 1110 },
+      "venueStats": {
+        "winRate": 0.41,
+        "cleanSheetRate": 0.37,
+        "avgGoalsScored": 1.28,
+        "avgGoalsConceded": 1.30
+      }
+    },
+    {
+      "code": 54,
+      "name": "Fulham",
+      "shortName": "FUL",
+      "stadium": "Craven Cottage",
+      "historicalStrength": { "attackHome": 1150, "defenceHome": 1140, "attackAway": 1090, "defenceAway": 1110 },
+      "venueStats": {
+        "winRate": 0.47,
+        "cleanSheetRate": 0.31,
+        "avgGoalsScored": 1.55,
+        "avgGoalsConceded": 1.42
+      }
+    },
+    {
+      "code": 40,
+      "name": "Ipswich",
+      "shortName": "IPS",
+      "stadium": "Portman Road",
+      "historicalStrength": { "attackHome": 1050, "defenceHome": 1040, "attackAway": 1020, "defenceAway": 1030 },
+      "venueStats": {
+        "winRate": 0.33,
+        "cleanSheetRate": 0.22,
+        "avgGoalsScored": 1.25,
+        "avgGoalsConceded": 1.85
+      }
+    },
+    {
+      "code": 13,
+      "name": "Leicester",
+      "shortName": "LEI",
+      "stadium": "King Power Stadium",
+      "historicalStrength": { "attackHome": 1090, "defenceHome": 1070, "attackAway": 1060, "defenceAway": 1050 },
+      "venueStats": {
+        "winRate": 0.38,
+        "cleanSheetRate": 0.25,
+        "avgGoalsScored": 1.35,
+        "avgGoalsConceded": 1.72
+      }
+    },
+    {
+      "code": 14,
+      "name": "Liverpool",
+      "shortName": "LIV",
+      "stadium": "Anfield",
+      "historicalStrength": { "attackHome": 1350, "defenceHome": 1320, "attackAway": 1300, "defenceAway": 1280 },
+      "venueStats": {
+        "winRate": 0.77,
+        "cleanSheetRate": 0.49,
+        "avgGoalsScored": 2.45,
+        "avgGoalsConceded": 0.85
+      }
+    },
+    {
+      "code": 43,
+      "name": "Man City",
+      "shortName": "MCI",
+      "stadium": "Etihad Stadium",
+      "historicalStrength": { "attackHome": 1370, "defenceHome": 1350, "attackAway": 1330, "defenceAway": 1310 },
+      "venueStats": {
+        "winRate": 0.81,
+        "cleanSheetRate": 0.54,
+        "avgGoalsScored": 2.65,
+        "avgGoalsConceded": 0.72
+      }
+    },
+    {
+      "code": 1,
+      "name": "Man Utd",
+      "shortName": "MUN",
+      "stadium": "Old Trafford",
+      "historicalStrength": { "attackHome": 1220, "defenceHome": 1180, "attackAway": 1170, "defenceAway": 1130 },
+      "venueStats": {
+        "winRate": 0.59,
+        "cleanSheetRate": 0.35,
+        "avgGoalsScored": 1.82,
+        "avgGoalsConceded": 1.34
+      }
+    },
+    {
+      "code": 4,
+      "name": "Newcastle",
+      "shortName": "NEW",
+      "stadium": "St. James' Park",
+      "historicalStrength": { "attackHome": 1280, "defenceHome": 1220, "attackAway": 1190, "defenceAway": 1150 },
+      "venueStats": {
+        "winRate": 0.65,
+        "cleanSheetRate": 0.41,
+        "avgGoalsScored": 2.22,
+        "avgGoalsConceded": 1.12
+      }
+    },
+    {
+      "code": 17,
+      "name": "Nott'm Forest",
+      "shortName": "NFO",
+      "stadium": "The City Ground",
+      "historicalStrength": { "attackHome": 1130, "defenceHome": 1160, "attackAway": 1080, "defenceAway": 1120 },
+      "venueStats": {
+        "winRate": 0.45,
+        "cleanSheetRate": 0.32,
+        "avgGoalsScored": 1.39,
+        "avgGoalsConceded": 1.35
+      }
+    },
+    {
+      "code": 20,
+      "name": "Southampton",
+      "shortName": "SOU",
+      "stadium": "St. Mary's Stadium",
+      "historicalStrength": { "attackHome": 1060, "defenceHome": 1050, "attackAway": 1030, "defenceAway": 1020 },
+      "venueStats": {
+        "winRate": 0.31,
+        "cleanSheetRate": 0.20,
+        "avgGoalsScored": 1.15,
+        "avgGoalsConceded": 1.95
+      }
+    },
+    {
+      "code": 6,
+      "name": "Spurs",
+      "shortName": "TOT",
+      "stadium": "Tottenham Hotspur Stadium",
+      "historicalStrength": { "attackHome": 1280, "defenceHome": 1170, "attackAway": 1220, "defenceAway": 1140 },
+      "venueStats": {
+        "winRate": 0.61,
+        "cleanSheetRate": 0.30,
+        "avgGoalsScored": 2.18,
+        "avgGoalsConceded": 1.39
+      }
+    },
+    {
+      "code": 21,
+      "name": "West Ham",
+      "shortName": "WHU",
+      "stadium": "London Stadium",
+      "historicalStrength": { "attackHome": 1170, "defenceHome": 1130, "attackAway": 1120, "defenceAway": 1090 },
+      "venueStats": {
+        "winRate": 0.49,
+        "cleanSheetRate": 0.29,
+        "avgGoalsScored": 1.62,
+        "avgGoalsConceded": 1.51
+      }
+    },
+    {
+      "code": 39,
+      "name": "Wolves",
+      "shortName": "WOL",
+      "stadium": "Molineux Stadium",
+      "historicalStrength": { "attackHome": 1140, "defenceHome": 1120, "attackAway": 1090, "defenceAway": 1080 },
+      "venueStats": {
+        "winRate": 0.43,
+        "cleanSheetRate": 0.28,
+        "avgGoalsScored": 1.40,
+        "avgGoalsConceded": 1.58
+      }
+    }
+  ],
+  "h2hMatrix": [
+    {
+      "teamA": "Man City",
+      "teamB": "Liverpool",
+      "meetings": 10,
+      "winsA": 4,
+      "winsB": 3,
+      "draws": 3,
+      "goalsA": 19,
+      "goalsB": 17,
+      "cleanSheetsA": 2,
+      "cleanSheetsB": 2,
+      "avgTotalGoals": 3.6,
+      "lastMeetingScore": "1-1",
+      "venueBias": { "homeAdvantagePct": 0.18 }
+    },
+    {
+      "teamA": "Arsenal",
+      "teamB": "Chelsea",
+      "meetings": 8,
+      "winsA": 5,
+      "winsB": 1,
+      "draws": 2,
+      "goalsA": 16,
+      "goalsB": 7,
+      "cleanSheetsA": 4,
+      "cleanSheetsB": 1,
+      "avgTotalGoals": 2.88,
+      "lastMeetingScore": "5-0",
+      "venueBias": { "homeAdvantagePct": 0.22 }
+    },
+    {
+      "teamA": "Arsenal",
+      "teamB": "Spurs",
+      "meetings": 8,
+      "winsA": 5,
+      "winsB": 1,
+      "draws": 2,
+      "goalsA": 17,
+      "goalsB": 10,
+      "cleanSheetsA": 3,
+      "cleanSheetsB": 1,
+      "avgTotalGoals": 3.38,
+      "lastMeetingScore": "1-0",
+      "venueBias": { "homeAdvantagePct": 0.15 }
+    },
+    {
+      "teamA": "Liverpool",
+      "teamB": "Man Utd",
+      "meetings": 8,
+      "winsA": 5,
+      "winsB": 1,
+      "draws": 2,
+      "goalsA": 23,
+      "goalsB": 6,
+      "cleanSheetsA": 5,
+      "cleanSheetsB": 1,
+      "avgTotalGoals": 3.62,
+      "lastMeetingScore": "3-0",
+      "venueBias": { "homeAdvantagePct": 0.25 }
+    },
+    {
+      "teamA": "Man City",
+      "teamB": "Arsenal",
+      "meetings": 8,
+      "winsA": 4,
+      "winsB": 2,
+      "draws": 2,
+      "goalsA": 14,
+      "goalsB": 8,
+      "cleanSheetsA": 3,
+      "cleanSheetsB": 2,
+      "avgTotalGoals": 2.75,
+      "lastMeetingScore": "2-2",
+      "venueBias": { "homeAdvantagePct": 0.14 }
+    }
+  ],
+  "playerBaselines": [
+    {
+      "code": 223094,
+      "name": "Erling Haaland",
+      "webName": "Haaland",
+      "position": "FWD",
+      "team": "Man City",
+      "careerPer90": {
+        "xG90": 0.94,
+        "xA90": 0.18,
+        "xGI90": 1.12,
+        "points90": 8.42,
+        "bonus90": 1.14,
+        "minutesShare": 0.88,
+        "finishingDelta": 0.08,
+        "conversionRate": 0.29
+      },
+      "seasons": {
+        "2023-24": { "points": 217, "goals": 27, "assists": 8, "xG": 28.6, "xA": 4.1, "minutes": 2558 },
+        "2024-25": { "points": 239, "goals": 29, "assists": 6, "xG": 30.1, "xA": 3.8, "minutes": 2740 },
+        "2025-26": { "points": 248, "goals": 31, "assists": 7, "xG": 31.4, "xA": 4.5, "minutes": 2880 }
+      }
+    },
+    {
+      "code": 118748,
+      "name": "Mohamed Salah",
+      "webName": "Salah",
+      "position": "MID",
+      "team": "Liverpool",
+      "careerPer90": {
+        "xG90": 0.68,
+        "xA90": 0.38,
+        "xGI90": 1.06,
+        "points90": 7.88,
+        "bonus90": 0.92,
+        "minutesShare": 0.91,
+        "finishingDelta": 0.04,
+        "conversionRate": 0.22
+      },
+      "seasons": {
+        "2023-24": { "points": 211, "goals": 18, "assists": 12, "xG": 19.4, "xA": 10.8, "minutes": 2536 },
+        "2024-25": { "points": 242, "goals": 22, "assists": 14, "xG": 21.2, "xA": 12.1, "minutes": 2820 },
+        "2025-26": { "points": 235, "goals": 20, "assists": 13, "xG": 20.1, "xA": 11.5, "minutes": 2750 }
+      }
+    },
+    {
+      "code": 438098,
+      "name": "Bukayo Saka",
+      "webName": "Saka",
+      "position": "MID",
+      "team": "Arsenal",
+      "careerPer90": {
+        "xG90": 0.46,
+        "xA90": 0.42,
+        "xGI90": 0.88,
+        "points90": 7.15,
+        "bonus90": 0.81,
+        "minutesShare": 0.90,
+        "finishingDelta": 0.02,
+        "conversionRate": 0.20
+      },
+      "seasons": {
+        "2023-24": { "points": 226, "goals": 16, "assists": 12, "xG": 15.2, "xA": 11.3, "minutes": 2938 },
+        "2024-25": { "points": 232, "goals": 17, "assists": 15, "xG": 16.0, "xA": 13.8, "minutes": 2950 },
+        "2025-26": { "points": 228, "goals": 15, "assists": 16, "xG": 15.4, "xA": 14.2, "minutes": 2910 }
+      }
+    },
+    {
+      "code": 497645,
+      "name": "Cole Palmer",
+      "webName": "Palmer",
+      "position": "MID",
+      "team": "Chelsea",
+      "careerPer90": {
+        "xG90": 0.62,
+        "xA90": 0.41,
+        "xGI90": 1.03,
+        "points90": 8.12,
+        "bonus90": 1.08,
+        "minutesShare": 0.89,
+        "finishingDelta": 0.12,
+        "conversionRate": 0.25
+      },
+      "seasons": {
+        "2023-24": { "points": 244, "goals": 22, "assists": 13, "xG": 18.2, "xA": 10.4, "minutes": 2623 },
+        "2024-25": { "points": 248, "goals": 21, "assists": 14, "xG": 18.9, "xA": 12.0, "minutes": 2810 },
+        "2025-26": { "points": 240, "goals": 19, "assists": 15, "xG": 17.8, "xA": 12.8, "minutes": 2790 }
+      }
+    },
+    {
+      "code": 178301,
+      "name": "Ollie Watkins",
+      "webName": "Watkins",
+      "position": "FWD",
+      "team": "Aston Villa",
+      "careerPer90": {
+        "xG90": 0.52,
+        "xA90": 0.32,
+        "xGI90": 0.84,
+        "points90": 6.82,
+        "bonus90": 0.74,
+        "minutesShare": 0.92,
+        "finishingDelta": 0.03,
+        "conversionRate": 0.21
+      },
+      "seasons": {
+        "2023-24": { "points": 228, "goals": 19, "assists": 18, "xG": 17.8, "xA": 10.2, "minutes": 3226 },
+        "2024-25": { "points": 215, "goals": 18, "assists": 11, "xG": 17.1, "xA": 9.4, "minutes": 3100 },
+        "2025-26": { "points": 219, "goals": 19, "assists": 12, "xG": 18.0, "xA": 9.8, "minutes": 3150 }
+      }
+    },
+    {
+      "code": 467169,
+      "name": "Alexander Isak",
+      "webName": "Isak",
+      "position": "FWD",
+      "team": "Newcastle",
+      "careerPer90": {
+        "xG90": 0.76,
+        "xA90": 0.16,
+        "xGI90": 0.92,
+        "points90": 7.24,
+        "bonus90": 0.85,
+        "minutesShare": 0.78,
+        "finishingDelta": 0.10,
+        "conversionRate": 0.28
+      },
+      "seasons": {
+        "2023-24": { "points": 172, "goals": 21, "assists": 4, "xG": 18.5, "xA": 3.1, "minutes": 2259 },
+        "2024-25": { "points": 198, "goals": 23, "assists": 5, "xG": 20.4, "xA": 3.9, "minutes": 2520 },
+        "2025-26": { "points": 204, "goals": 24, "assists": 5, "xG": 21.0, "xA": 4.1, "minutes": 2580 }
+      }
+    },
+    {
+      "code": 209244,
+      "name": "Phil Foden",
+      "webName": "Foden",
+      "position": "MID",
+      "team": "Man City",
+      "careerPer90": {
+        "xG90": 0.44,
+        "xA90": 0.34,
+        "xGI90": 0.78,
+        "points90": 6.95,
+        "bonus90": 0.78,
+        "minutesShare": 0.82,
+        "finishingDelta": 0.08,
+        "conversionRate": 0.22
+      },
+      "seasons": {
+        "2023-24": { "points": 230, "goals": 19, "assists": 8, "xG": 15.6, "xA": 8.2, "minutes": 2860 },
+        "2024-25": { "points": 205, "goals": 16, "assists": 10, "xG": 14.8, "xA": 9.1, "minutes": 2680 },
+        "2025-26": { "points": 212, "goals": 17, "assists": 11, "xG": 15.2, "xA": 9.5, "minutes": 2720 }
+      }
+    },
+    {
+      "code": 169187,
+      "name": "Trent Alexander-Arnold",
+      "webName": "Alexander-Arnold",
+      "position": "DEF",
+      "team": "Liverpool",
+      "careerPer90": {
+        "xG90": 0.12,
+        "xA90": 0.36,
+        "xGI90": 0.48,
+        "points90": 5.82,
+        "bonus90": 0.75,
+        "minutesShare": 0.85,
+        "finishingDelta": 0.01,
+        "conversionRate": 0.12
+      },
+      "seasons": {
+        "2023-24": { "points": 122, "goals": 3, "assists": 9, "xG": 2.4, "xA": 7.8, "minutes": 2098 },
+        "2024-25": { "points": 168, "goals": 4, "assists": 12, "xG": 3.1, "xA": 10.2, "minutes": 2740 },
+        "2025-26": { "points": 164, "goals": 3, "assists": 13, "xG": 2.9, "xA": 10.5, "minutes": 2690 }
+      }
+    },
+    {
+      "code": 226597,
+      "name": "Gabriel Magalhães",
+      "webName": "Gabriel",
+      "position": "DEF",
+      "team": "Arsenal",
+      "careerPer90": {
+        "xG90": 0.14,
+        "xA90": 0.04,
+        "xGI90": 0.18,
+        "points90": 4.95,
+        "bonus90": 0.45,
+        "minutesShare": 0.94,
+        "finishingDelta": 0.02,
+        "conversionRate": 0.15
+      },
+      "seasons": {
+        "2023-24": { "points": 149, "goals": 4, "assists": 1, "xG": 3.8, "xA": 0.8, "minutes": 3042 },
+        "2024-25": { "points": 162, "goals": 5, "assists": 2, "xG": 4.2, "xA": 1.0, "minutes": 3120 },
+        "2025-26": { "points": 158, "goals": 4, "assists": 2, "xG": 3.9, "xA": 1.1, "minutes": 3080 }
+      }
+    },
+    {
+      "code": 204676,
+      "name": "David Raya",
+      "webName": "Raya",
+      "position": "GK",
+      "team": "Arsenal",
+      "careerPer90": {
+        "xG90": 0.0,
+        "xA90": 0.01,
+        "xGI90": 0.01,
+        "points90": 4.65,
+        "bonus90": 0.38,
+        "minutesShare": 0.95,
+        "finishingDelta": 0.0,
+        "conversionRate": 0.0
+      },
+      "seasons": {
+        "2023-24": { "points": 135, "goals": 0, "assists": 0, "xG": 0.0, "xA": 0.1, "minutes": 2880 },
+        "2024-25": { "points": 155, "goals": 0, "assists": 0, "xG": 0.0, "xA": 0.1, "minutes": 3240 },
+        "2025-26": { "points": 152, "goals": 0, "assists": 0, "xG": 0.0, "xA": 0.1, "minutes": 3150 }
+      }
+    },
+    {
+      "code": 444145,
+      "name": "Bryan Mbeumo",
+      "webName": "Mbeumo",
+      "position": "MID",
+      "team": "Brentford",
+      "careerPer90": {
+        "xG90": 0.51,
+        "xA90": 0.33,
+        "xGI90": 0.84,
+        "points90": 6.75,
+        "bonus90": 0.72,
+        "minutesShare": 0.86,
+        "finishingDelta": 0.03,
+        "conversionRate": 0.23
+      },
+      "seasons": {
+        "2023-24": { "points": 127, "goals": 9, "assists": 7, "xG": 9.2, "xA": 5.4, "minutes": 1968 },
+        "2024-25": { "points": 188, "goals": 14, "assists": 9, "xG": 13.5, "xA": 7.8, "minutes": 2720 },
+        "2025-26": { "points": 195, "goals": 15, "assists": 10, "xG": 14.1, "xA": 8.2, "minutes": 2780 }
+      }
+    },
+    {
+      "code": 512217,
+      "name": "Antoine Semenyo",
+      "webName": "Semenyo",
+      "position": "MID",
+      "team": "Bournemouth",
+      "careerPer90": {
+        "xG90": 0.39,
+        "xA90": 0.22,
+        "xGI90": 0.61,
+        "points90": 5.45,
+        "bonus90": 0.48,
+        "minutesShare": 0.79,
+        "finishingDelta": 0.01,
+        "conversionRate": 0.18
+      },
+      "seasons": {
+        "2023-24": { "points": 118, "goals": 8, "assists": 4, "xG": 7.8, "xA": 3.9, "minutes": 2105 },
+        "2024-25": { "points": 146, "goals": 11, "assists": 5, "xG": 10.2, "xA": 4.6, "minutes": 2480 },
+        "2025-26": { "points": 154, "goals": 12, "assists": 6, "xG": 11.0, "xA": 5.2, "minutes": 2550 }
+      }
+    },
+    {
+      "code": 463748,
+      "name": "Morgan Rogers",
+      "webName": "Rogers",
+      "position": "MID",
+      "team": "Aston Villa",
+      "careerPer90": {
+        "xG90": 0.36,
+        "xA90": 0.31,
+        "xGI90": 0.67,
+        "points90": 5.60,
+        "bonus90": 0.52,
+        "minutesShare": 0.81,
+        "finishingDelta": 0.02,
+        "conversionRate": 0.19
+      },
+      "seasons": {
+        "2023-24": { "points": 58, "goals": 3, "assists": 1, "xG": 2.8, "xA": 1.4, "minutes": 890 },
+        "2024-25": { "points": 152, "goals": 9, "assists": 9, "xG": 8.7, "xA": 7.4, "minutes": 2610 },
+        "2025-26": { "points": 164, "goals": 10, "assists": 11, "xG": 9.5, "xA": 8.2, "minutes": 2690 }
+      }
+    },
+    {
+      "code": 60706,
+      "name": "Chris Wood",
+      "webName": "Wood",
+      "position": "FWD",
+      "team": "Nott'm Forest",
+      "careerPer90": {
+        "xG90": 0.54,
+        "xA90": 0.09,
+        "xGI90": 0.63,
+        "points90": 5.85,
+        "bonus90": 0.66,
+        "minutesShare": 0.74,
+        "finishingDelta": 0.09,
+        "conversionRate": 0.27
+      },
+      "seasons": {
+        "2023-24": { "points": 131, "goals": 14, "assists": 1, "xG": 11.2, "xA": 1.2, "minutes": 1807 },
+        "2024-25": { "points": 158, "goals": 16, "assists": 2, "xG": 13.0, "xA": 1.5, "minutes": 2320 },
+        "2025-26": { "points": 162, "goals": 17, "assists": 2, "xG": 13.5, "xA": 1.6, "minutes": 2390 }
+      }
+    }
+  ]
+}

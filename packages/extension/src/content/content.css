@@ -1,0 +1,132 @@
+/* Injected AI Badges for fantasy.premierleague.com */
+
+.fpl-ai-badge-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  z-index: 9999;
+  pointer-events: auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.fpl-ai-badge-xp {
+  background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+  color: #ffffff;
+  padding: 3px 6px;
+  border-radius: 9999px;
+  box-shadow: 0 2px 6px rgba(16, 185, 129, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.fpl-ai-badge-xp:hover {
+  transform: scale(1.1);
+  box-shadow: 0 3px 10px rgba(16, 185, 129, 0.6);
+}
+
+.fpl-ai-badge-delta {
+  background: #1e293b;
+  color: #38bdf8;
+  padding: 3px 5px;
+  border-radius: 9999px;
+  border: 1px solid #334155;
+  font-size: 9px;
+}
+
+.fpl-ai-badge-delta.hot {
+  color: #f43f5e;
+  border-color: #fda4af;
+}
+
+.fpl-ai-badge-delta.cold {
+  color: #38bdf8;
+  border-color: #7dd3fc;
+}
+
+/* Historical Fixture Modifier Badges (Bogey Grounds & Flat-Track Bullies) */
+.fpl-ai-fixture-modifier-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 2.5px 6px;
+  border-radius: 9999px;
+  font-size: 9px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  cursor: help;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.fpl-ai-fixture-modifier-badge:hover {
+  transform: scale(1.08);
+}
+
+.fpl-ai-fixture-modifier-badge.bogey {
+  background: linear-gradient(135deg, #6b21a8 0%, #be123c 100%);
+  color: #ffffff;
+  border: 1px solid rgba(244, 63, 94, 0.5);
+  box-shadow: 0 0 8px rgba(190, 18, 60, 0.6);
+  animation: pulseBogey 2.5s infinite;
+}
+
+.fpl-ai-fixture-modifier-badge.bully {
+  background: linear-gradient(135deg, #b45309 0%, #f59e0b 100%);
+  color: #0f172a;
+  border: 1px solid rgba(251, 191, 36, 0.6);
+  box-shadow: 0 0 8px rgba(245, 158, 11, 0.5);
+}
+
+.fpl-ai-fixture-modifier-badge.fortress {
+  background: linear-gradient(135deg, #0369a1 0%, #06b6d4 100%);
+  color: #ffffff;
+  border: 1px solid rgba(56, 189, 248, 0.4);
+  box-shadow: 0 0 8px rgba(6, 182, 212, 0.5);
+}
+
+@keyframes pulseBogey {
+  0%, 100% {
+    box-shadow: 0 0 6px rgba(190, 18, 60, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 12px rgba(244, 63, 94, 0.9);
+  }
+}
+
+/* Tooltip on hover */
+.fpl-ai-tooltip {
+  visibility: hidden;
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #0f172a;
+  color: #f8fafc;
+  text-align: left;
+  border-radius: 6px;
+  padding: 8px 10px;
+  z-index: 10000;
+  font-size: 11px;
+  font-weight: 500;
+  white-space: nowrap;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5), 0 0 0 1px #334155;
+  opacity: 0;
+  transition: opacity 0.2s, visibility 0.2s;
+  pointer-events: none;
+}
+
+.fpl-ai-badge-container:hover .fpl-ai-tooltip {
+  visibility: visible;
+  opacity: 1;
+}

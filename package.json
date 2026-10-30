@@ -1,0 +1,30 @@
+{
+  "name": "fpl-ai-companion-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FPL Classic & FPL Draft AI Companion Monorepo with Manifest V3 Extension and Gemini 3.8 Backend",
+  "workspaces": [
+    "packages/shared",
+    "packages/backend",
+    "packages/extension"
+  ],
+  "scripts": {
+    "build:shared": "npm --workspace=packages/shared run build",
+    "build:backend": "npm --workspace=packages/backend run build",
+    "build:extension": "npm --workspace=packages/extension run build",
+    "build": "npm run build:shared && npm run build:backend && npm run build:extension",
+    "start:backend": "npm --workspace=packages/backend run start",
+    "dev:backend": "npm --workspace=packages/backend run dev",
+    "dev:extension": "npm --workspace=packages/extension run dev"
+  },
+  "keywords": [
+    "fpl",
+    "fpl-draft",
+    "gemini",
+    "chrome-extension",
+    "manifest-v3",
+    "fantasy-premier-league"
+  ],
+  "author": "",
+  "license": "MIT"
+}
